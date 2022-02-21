@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+     font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 0px;
+    
+}
+
+.ctr1{
+    width: 350px;
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 10px 0px 0px;
+}
+.ctr2{
+    width: 350px;
+    background-color: hsl(184, 100%, 22%);
+}
+.ctr3{
+    width: 350px;
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 0px 10px 10px;
+    ;
+}
+img{
+    padding: 10% 18% 10% 18% ;
+    
+}
+h1{
+    padding:0% 18% 10% 18%;
+    font-family: 'Big Shoulders Display', cursive;
+    color: white;
+    font-size: 40px;
+}
+p{
+    padding:0% 18% 10% 18%;
+    color: white;
+    line-height: 1.8;
+}
+.btn{
+    margin: 0% 1% 10% 18%;
+    background-color:white ;
+    border-radius: 80px;
+    padding: 15px 0px;
+    text-align: center;
+    width: 150px;
+}
+.ctr1 .btn{
+    color: hsl(31, 77%, 52%);
+}
+.ctr2 .btn{
+    color: hsl(184, 100%, 22%);
+}
+.ctr2 .btn{
+    color:hsl(179, 100%, 13%);
+}
+
+
